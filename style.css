@@ -103,7 +103,7 @@ p{
     border-radius: 20px;
     width: 100%;
     justify-content: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 0
 }
 .pers{
     padding: 50px 40px 50px 40px;
@@ -237,10 +237,10 @@ h2{
         display: none;
     }
     h3{
-        font-size: 20px;
+        font-size:  16px;
     }
     p{
-        font-size: 16px;
+        font-size: 12px;
     }
     h2{
         font-size: 30px;
@@ -259,5 +259,11 @@ h2{
     }
     .pers{
         padding: 50px 10px 50px 10px;
+    }
+    .comm{
+        padding: 10px 40px 10px 40px;
+    }
+    .comm p{
+        padding: 0 0 0 0;
     }
 }
