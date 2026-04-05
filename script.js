@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     themeSwitcher.addEventListener('click', ()=>{
         themeSwicth = !themeSwicth;
         if(themeSwicth){
-            main.style.backgroundColor = "white";
+            main.style.backgroundColor = "#484848";
             articles.forEach(el => el.style.backgroundColor = "black");
             p.forEach(el => el.style.color = "white");
             h3.forEach(el =>el.style.color = "white");
